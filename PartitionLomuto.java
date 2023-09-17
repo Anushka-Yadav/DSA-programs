@@ -18,8 +18,11 @@ public class PartitionLomuto {
         return i+1;
     }
     public static void main(String[] args) {
-        int arr[] = {2,3,4,5,1};
+        int arr[] = {9,12,5,10,14,3,10};
         System.out.println(arr[partitionL(arr, 0, arr.length)]);
+        for (int i : arr) {
+            System.out.print(i+" ");
+        }
     }
     
 }
